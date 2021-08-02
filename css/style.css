@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  margin-top: 2rem;
+}
+
+/* Card Header */
+.card {
+  border: 1px solid #d0cece;
+  border-radius: 10px;
+  width: 500px;
+}
+.card-header-box {
+  display: flex;
+  padding: 1rem;
+}
+.card-header-text {
+  width: 100%;
+  text-align: left;
+}
+.card-header-text h3 {
+  color: #d0cece;
+  font-weight: 400;
+}
+.card-header-img {
+  text-align: right;
+  width: 25%;
+}
+.card-header-description {
+  border-bottom: 1px solid #d0cece;
+  padding-bottom: 1.5rem;
+}
+.card-header-description p {
+  color: #2a383b;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Card Bottom */
+.card-bottom {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.btn-approve {
+  border: 2px solid #85c223;
+  padding: 1rem 3rem;
+  border-radius: 10px 0 0 10px;
+}
+.btn-approve h2 {
+  font-weight: 400;
+  color: #85c223;
+}
+.btn-decline {
+  border: 2px solid #d10b1b;
+  padding: 1rem 3rem;
+  font-weight: 200;
+  border-radius: 0 10px 10px 0;
+  margin-left: -1px;
+}
+.btn-decline h2 {
+  font-weight: 400;
+  color: #d10b1b;
+}
